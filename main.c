@@ -62,9 +62,6 @@ void init_table(table_t *table, const int num_of_phills)
  **/
 void* eating(void *args)
 {
-    philosopher_arguments_t *arg = (philosopher_arguments_t*) args;
-    philosopher_t *philosopher = arg->philosopher;
-    table_t *table = arg->table;
 
     while (true)
     {
